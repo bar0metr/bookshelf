@@ -1,5 +1,4 @@
 # bookshelf
-<p># bookshelf<br />
 <strong>Программа Bookshelf on GoLang</strong></p>
 
 <p>Одностраничное CRUD приложения - Библиотека книг. Позволяет редактировать список книг. Используется СУБД Postgresql, GoLang, Twitter<br />
