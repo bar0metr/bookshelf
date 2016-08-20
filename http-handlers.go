@@ -137,10 +137,11 @@ func handleDeleteBook(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 
-		fmt.Printf("Rows removed: %v\n", n)
+		fmt.Printf("Удалена книга: %v\n", n)
 	}
 	http.Redirect(w, r, "/", 302)
 }
+
 
 func renderErrorPage(w http.ResponseWriter, errorMsg error) {
 	buf, err := ioutil.ReadFile("html/error.html")
